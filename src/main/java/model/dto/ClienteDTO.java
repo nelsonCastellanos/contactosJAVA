@@ -1,8 +1,9 @@
 package model.dto;
 
 public class ClienteDTO {
-    private Integer tipoID;
-    private Integer nroID;
+    private Integer id;
+    private String tipoID;
+    private String nroID;
     private String nombre;
     private String apellido;
     private String usuario;
@@ -10,19 +11,27 @@ public class ClienteDTO {
     private String nroCelular;
     private String correoElectronico;
 
-    public Integer getTipoID() {
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getTipoID() {
         return tipoID;
     }
 
-    public void setTipoID(Integer tipoID) {
+    public void setTipoID(String tipoID) {
         this.tipoID = tipoID;
     }
 
-    public Integer getNroID() {
+    public String getNroID() {
         return nroID;
     }
 
-    public void setNroID(Integer nroID) {
+    public void setNroID(String nroID) {
         this.nroID = nroID;
     }
 
