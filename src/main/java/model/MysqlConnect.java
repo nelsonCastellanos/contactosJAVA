@@ -42,7 +42,7 @@ public class MysqlConnect {
      * Base de datos a la cual se va a realizar la conexión.
      * @return valor de fuente de datos.
      */
-    private MysqlDataSource dataSource(){
+    MysqlDataSource dataSource(){
         MysqlDataSource connection = new MysqlDataSource();
         connection.setUser("root");
         connection.setPassword("");

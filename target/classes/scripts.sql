@@ -12,4 +12,4 @@ CREATE TABLE IF NOT EXISTS cliente
     constraint cliente_correoElectronico_uindex unique (correoElectronico),
     constraint cliente_id_uindex unique (id),
     constraint cliente_usuario_uindex unique (usuario)
-    );
+);
