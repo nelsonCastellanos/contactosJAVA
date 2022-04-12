@@ -27,6 +27,7 @@ public class MysqlConnect {
         }
     }
 
+
     /**
      * Static method to create instance of Singleton class
      * @return
